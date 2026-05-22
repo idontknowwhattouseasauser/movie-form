@@ -5,7 +5,7 @@
         </title>
     </head>
     <body>
-      <form>
+      <form  id="movie-form">
         <label>Movie/Show?:</label><input id="ms", type="text"></input>
         <br>
         <label>Name of Movie/Show:</label><input id="noms", type="text"></input>
@@ -15,6 +15,21 @@
         <label>Year of Release:</label><input id="yor", type="text"></input>
         <br>
         <label>Any sequels?:</label><input id="as", type="text"></input>
-      </form>  
+
+        <input type="submit" value="addmovie">
+      </form>
+      
+      <table>
+        <thead><tr>
+          <th> movie/show</th>
+          <th>name of movie/show</th>
+          <th>movie/show director</th>
+          <th>year of release</th>
+          <th>any sequels?</th>
+        </tr></thead>
+        <tbody id="movie-list">
+
+        </tbody>
+      </table>
     </body>
 </html>
